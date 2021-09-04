@@ -1,16 +1,46 @@
 import React from "react";
+import './footer.css';
+import { BottomNavigation, Link, Container, Box } from "@material-ui/core";
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import mediumImg from '../../assets/icons8-medium.svg';
 
 function Footer() {
   return (
-    <div className="footer">
-      <footer class="py-5 bg-dark">
-        <div class="container">
-          <p class="m-0 text-center text-white">
-            Copyright &copy; Your Website 2020
-          </p>
-        </div>
-      </footer>
-    </div>
+
+    <Container className="footer" >
+
+      <BottomNavigation>
+        <Link
+          rel="noopener noreferrer" href="https://github.com/gcy2312?tab=repositories" target="_blank">
+          <GitHubIcon class="link-icons" />
+        </Link>
+
+        <Link
+          rel="noopener noreferrer" href="https://www.linkedin.com/in/genevieve-cyr-08553739/" target="_blank">
+          <LinkedInIcon class="link-icons" />
+        </Link>
+
+        <Link
+          rel="noopener noreferrer" href="https://twitter.com/genevieve_cyr" target="_blank">
+          <TwitterIcon class="link-icons" />
+        </Link>
+
+        <Link
+          rel="noopener noreferrer" href="https://medium.com/@gma.cyr/about" target="_blank">
+          <img src={mediumImg} class="link-icons"></img>
+        </Link>
+
+        <Link
+          rel="noopener noreferrer" href="mailto:gma.cyr@gmail.com" target="_blank">
+          <img class="link-icons"></img>
+        </Link>
+
+      </BottomNavigation>
+
+    </Container>
+
   );
 }
 
