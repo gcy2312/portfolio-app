@@ -1,12 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { Row, Col } from 'react-bootstrap';
-import { Container, Typography } from '@material-ui/core';
+import { Typography } from '@material-ui/core';
 import Carousel from 'react-material-ui-carousel'
-import { Paper, Button } from '@material-ui/core';
+import { Button } from '@material-ui/core';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
-import SkipNextIcon from '@material-ui/icons/SkipNext';
-import SkipPreviousIcon from '@material-ui/icons/SkipPrevious';
 import './work.css';
 
 import reactClientImg from '../../assets/myflix-react.png';
