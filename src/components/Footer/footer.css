@@ -1,0 +1,13 @@
+.footer{
+  margin-bottom: 30px; 
+}
+
+.link-icons{
+  margin:15px;
+  width: 50px;
+  height: auto;
+  transition: transform .2s; /* Animation */
+}
+.link-icons:hover{
+  transform: scale(1.3);
+}
