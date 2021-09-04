@@ -1,29 +1,38 @@
 import React from "react";
+import { Navbar } from "react-bootstrap";
 import { Link } from 'react-scroll'
+import { Typography, Button } from '@material-ui/core';
+
+import './navigation.css';
 // import { Link, withRouter } from "react-router-dom";
 
+
 function Navigation(props) {
+
   return (
-    <div className="navigation">
-      <nav class="navbar sticky navbar-expand navbar-dark bg-dark">
-        <div class="container">
-          <Link class="navbar-brand" to="/">
-            React Multi-Page Website
-          </Link>
+    <Navbar fixed="top" bg="light" expand="lg">
+      <Typography id="title" variant="h6">
+        Portfolio
+      </Typography>
+      <Navbar.Toggle />
+      <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
 
-          <div>
-            <ul class="navbar-nav ml-auto">
+        <Link activeClass="active" to="Home" spy={true} smooth={true}>
+          <Button color="inherit">Home</Button>
+        </Link>
+        <Link activeClass="active" to="About" spy={true} smooth={true}>
+          <Button color="inherit">About</Button>
+        </Link>
+        <Link activeClass="active" to="Work" spy={true} smooth={true}>
+          <Button color="inherit">Work</Button>
+        </Link>
+        <Link activeClass="active" to="Contact" spy={true} smooth={true}>
+          <Button color="inherit">Contact</Button>
+        </Link>
 
-              <li class="nav-item"><Link activeClass="active" to="Home" spy={true} smooth={true}>Home</Link></li>
-              <li class="nav-item"><Link to="About" spy={true} smooth={true}>About</Link></li>
-              <li class="nav-item"><Link to="Work" spy={true} smooth={true}>Work</Link></li>
-              <li class="nav-item"><Link to="Contact" spy={true} smooth={true}>Contact</Link></li>
+      </Navbar.Collapse>
+    </Navbar>
 
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
   );
 }
 
