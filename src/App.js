@@ -10,6 +10,7 @@ function App() {
         <Home />
         <About />
         <Work />
+
         <Contact />
 
 
