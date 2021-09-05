@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar } from "react-bootstrap";
-import { Link } from 'react-scroll'
+import { Link } from 'react-scroll';
 import { Typography, Button } from '@material-ui/core';
 
 import './navigation.css';
@@ -17,16 +17,16 @@ function Navigation(props) {
       <Navbar.Toggle />
       <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
 
-        <Link activeClass="active" to="Home" spy={true} smooth={true}>
+        <Link activeClass="active" to="Home" spy={true} offset={-100} smooth={true}>
           <Button color="inherit">Home</Button>
         </Link>
-        <Link activeClass="active" to="About" spy={true} smooth={true}>
+        <Link activeClass="active" to="About" spy={true} offset={-100} smooth={true}>
           <Button color="inherit">About</Button>
         </Link>
-        <Link activeClass="active" to="Work" spy={true} smooth={true}>
+        <Link activeClass="active" to="Work" spy={true} offset={-100} smooth={true}>
           <Button color="inherit">Work</Button>
         </Link>
-        <Link activeClass="active" to="Contact" spy={true} smooth={true}>
+        <Link activeClass="active" to="Contact" spy={true} offset={-80} smooth={true}>
           <Button color="inherit">Contact</Button>
         </Link>
 
