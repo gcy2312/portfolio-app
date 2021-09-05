@@ -1,8 +1,7 @@
 import React from "react";
 import { Row, Col } from 'react-bootstrap';
-import { Typography } from '@material-ui/core';
+import { Typography, Button } from '@material-ui/core';
 import Carousel from 'react-material-ui-carousel'
-import { Button } from '@material-ui/core';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 import './work.css';
@@ -18,12 +17,12 @@ import apiImg from '../../assets/api-img.png';
 function Work(props) {
   var items = [
     {
-      title: "Client-Side React",
-      subtitle: "ReactJS, Bootstrap, CSS",
-      description: "Client-side programming for myFlix app using ReactJS. IMDB functionality, where users can browse and favorite a selection of movies.Uses MERN stack, Bootstrap, CSS.",
-      imagePath: `${reactClientImg}`,
-      liveLink: "https://gcy2312-react-myflix.netlify.app/",
-      gitLink: "https://github.com/gcy2312/myFlix-client"
+      title: "Client-Side Angular",
+      subtitle: "AngularCLI, MaterialUI, CSS",
+      description: "A re-build of client-side for myFlix app using Angular. Same IMDB functionality implemented using Angular CLI, SCSS, and Material UI.",
+      imagePath: `${angularClientImg}`,
+      liveLink: "https://gcy2312.github.io/myFlix-Angular-client/welcome",
+      gitLink: "https://github.com/gcy2312/myFlix-Angular-client",
     },
     {
       title: "Serverless Web App",
@@ -34,12 +33,12 @@ function Work(props) {
       gitLink: "https://github.com/gcy2312/meet-app",
     },
     {
-      title: "Client-Side Angular",
-      subtitle: "AngularCLI, MaterialUI, CSS",
-      description: "A re-build of client-side for myFlix app using Angular. Same IMDB functionality implemented using Angular CLI, SCSS, and Material UI.",
-      imagePath: `${angularClientImg}`,
-      liveLink: "https://gcy2312.github.io/myFlix-Angular-client/welcome",
-      gitLink: "https://github.com/gcy2312/myFlix-Angular-client",
+      title: "Client-Side React",
+      subtitle: "ReactJS, Bootstrap, CSS",
+      description: "Client-side programming for myFlix app using ReactJS. IMDB functionality, where users can browse and favorite a selection of movies.Uses MERN stack, Bootstrap, CSS.",
+      imagePath: `${reactClientImg}`,
+      liveLink: "https://gcy2312-react-myflix.netlify.app/",
+      gitLink: "https://github.com/gcy2312/myFlix-client"
     },
     {
       title: "JavaScript App",
@@ -54,7 +53,6 @@ function Work(props) {
       subtitle: "ReactNative, CSS",
       description: "Native mobile chat app developped using React Native. Provide users with chat interface (GiftedChat) and functionality to share images, location, and take photo with device camera.",
       imagePath: `${chatImg}`,
-      liveLink: "https://github.com/gcy2312/chat-app",
       gitLink: "https://github.com/gcy2312/chat-app",
     },
     {
@@ -62,25 +60,29 @@ function Work(props) {
       subtitle: "MongoDB, ReactJS, Node, Express",
       description: "Server-side programming for myFlix app. Built using MERN stack (MongoDB, Express, ReactJS, Node.js), and deployed using Heroku.",
       imagePath: `${apiImg}`,
-      liveLink: "https://myflix-movie-api-2312.herokuapp.com/",
+      // liveLink: "https://myflix-movie-api-2312.herokuapp.com/",
       gitLink: "https://github.com/gcy2312/myFlix",
     },
 
   ]
 
   return (
-    <div class="container" id="Work">
-      <Typography variant="h3">Work</Typography>
-      <Carousel
-        animation="slide"
-        interval="6000"
-        NextIcon={<NavigateNextIcon />}
-        PrevIcon={<NavigateBeforeIcon />}
-      >
-        {
-          items.map((item, i) => <Item key={i} item={item} />)
-        }
-      </Carousel>
+    <div id="Work" className="work">
+      <div class="container" >
+        <Typography id="work-header" variant="h3">Work</Typography>
+        <Row md={12}>
+          <Carousel
+            animation="slide"
+            interval="6000"
+            NextIcon={<NavigateNextIcon />}
+            PrevIcon={<NavigateBeforeIcon />}
+          >
+            {
+              items.map((item, i) => <Item key={i} item={item} />)
+            }
+          </Carousel>
+        </Row>
+      </div>
     </div>
   )
 }
@@ -106,7 +108,11 @@ function Item(props) {
 
         <div className="project-links">
           <Button variant="contained" color="primary" href={props.item.gitLink}>GitHub</Button>
-          <Button variant="contained" color="primary" href={props.item.liveLink}>Live project</Button>
+          {
+            props.item.liveLink ? <Button variant="contained" color="primary" href={props.item.liveLink}>Live project</Button> : null
+          }
+
+
         </div>
 
       </Col>
