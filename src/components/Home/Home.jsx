@@ -1,27 +1,32 @@
 import React from "react";
+import { Typography } from '@material-ui/core';
+import { Row, Col } from 'react-bootstrap';
+import Typist from 'react-typist';
+
+import './home.css';
 
 function Home() {
   return (
     <div id="Home" className="home">
       <div class="container">
-        <div class="row align-items-center my-5">
-          <div class="col-lg-7">
-            <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
-              alt=""
-            />
-          </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">Home</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-          </div>
-        </div>
+        <Typography id="home-header" variant="h3">Home</Typography>
+
+        <Row className="justify-content-md-center">
+
+          <Col md={5}>
+
+            <Typist className="MyTypist">
+              <span className="my-custom-class"> First Sentenc. Lorem ipsum is the short-hand term for the most popular placeholder text in history, used for decades by graphic designers, web developers, and the publishing industry. e </span>
+              <br />
+              <div className="container">
+                <p> This will be animated after first sentence is complete. Here’s what a paragraph of lorem ipsum looks like: Lorem Ipsum dolor sit amet, </p>
+                <p prop1="val1"> More text.consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+              </div>
+              Final sentence
+            </Typist>
+
+          </Col>
+        </Row>
       </div>
     </div>
   );
