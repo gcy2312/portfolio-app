@@ -1,8 +1,17 @@
+#work-header{
+  margin-top: 30px;
+}
+.work{
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
 .project-links{
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
+  margin-right: 60px;
 }
+
 #project-desc{
   margin-top: 20px;
 }
