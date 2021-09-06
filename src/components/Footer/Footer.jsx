@@ -5,6 +5,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import mediumImg from '../../assets/icons8-medium.svg';
+import skypeImg from '../../assets/skype.svg';
 
 function Footer() {
   return (
@@ -33,8 +34,8 @@ function Footer() {
         </Link>
 
         <Link
-          rel="noopener noreferrer" href="mailto:gma.cyr@gmail.com" target="_blank">
-          <img class="link-icons"></img>
+          rel="noopener noreferrer" href="skype:<gma.cyr>[?[add|call|chat|sendfile|userinfo]]" target="_blank">
+          <img src={skypeImg} class="link-icons"></img>
         </Link>
 
       </BottomNavigation>
