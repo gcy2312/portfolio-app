@@ -53,7 +53,7 @@ function Work(props) {
       subtitle: "ReactNative, CSS",
       description: "Native mobile chat app developped using React Native. Provide users with chat interface (GiftedChat) and functionality to share images, location, and take photo with device camera.",
       imagePath: `${chatImg}`,
-      gitLink: "https://github.com/gcy2312/chat-app",
+      gitLink: "https://github.com/gcy2312/chat-app/tree/features-function"
     },
     {
       title: "RESTful API",
