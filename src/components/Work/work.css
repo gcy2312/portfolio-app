@@ -1,9 +1,7 @@
-#work-header{
-  margin-top: 30px;
-}
+
 .work{
-  margin-top: 30px;
-  margin-bottom: 100px;
+  padding-top: 30px;
+  padding-bottom: 100px;
 }
 .project-links{
   display: flex;
@@ -13,5 +11,5 @@
 }
 
 #project-desc{
-  margin-top: 20px;
+  padding-top: 20px;
 }
