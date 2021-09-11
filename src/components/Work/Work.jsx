@@ -69,7 +69,7 @@ function Work(props) {
   return (
     <div id="Work" className="work">
       <div class="container" >
-        <Typography id="work-header" variant="h3">Work</Typography>
+        <Typography id="work-header" >WORK</Typography>
         <Row md={12}>
           <Carousel
             animation="slide"
@@ -97,19 +97,20 @@ function Item(props) {
           alt="Images of projects"
           width="auto"
           height="300px"
+          id="projectImg"
         />
       </Col>
       <Col md={5}>
-        <Typography variant="h4">{props.item.title}</Typography>
+        <Typography id="title" >{props.item.title}</Typography>
 
-        <Typography variant="subtitle2"> {props.item.subtitle} </Typography>
+        <Typography id="subtitle" variant="subtitle2"> {props.item.subtitle} </Typography>
 
-        <Typography id="project-desc" variant="body1">{props.item.description}</Typography>
+        <Typography id="project-desc" >{props.item.description}</Typography>
 
         <div className="project-links">
-          <Button variant="contained" color="primary" href={props.item.gitLink}>GitHub</Button>
+          <Button id="projectBtn" variant="contained" href={props.item.gitLink}>GitHub</Button>
           {
-            props.item.liveLink ? <Button variant="contained" color="primary" href={props.item.liveLink}>Live project</Button> : null
+            props.item.liveLink ? <Button id="projectBtn" variant="contained" href={props.item.liveLink}>Live project</Button> : null
           }
 
 
