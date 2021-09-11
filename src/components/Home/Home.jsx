@@ -3,6 +3,8 @@ import { Typography, Container } from '@material-ui/core';
 import { Row, Col } from 'react-bootstrap';
 import Typist from 'react-typist';
 
+import logoImg from '../../assets/logo700.png';
+
 import './home.css';
 
 // const genevieveCyr = (name) => {
@@ -25,6 +27,7 @@ function Home() {
         <Row className="justify-content-md-center">
 
           <Col md={7}>
+            <img class="bgImg" src={logoImg}></img>
             <Container>
 
               <Typist avgTypingDelay={20} stdTypingDelay={10} className="typist">
