@@ -1,5 +1,17 @@
+#navbar{
+  /* background-color: #252b31; */
+  background-color: #000;
+}
 #title {
   display: flex;
   flex-grow: 1;
   align-self: flex-end;
+  }
+  #navBtn{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat';
+  }
+  #navBtn:hover, #navBtn:focus{
+    color:#e45f05;
   }
