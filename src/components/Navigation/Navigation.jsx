@@ -3,6 +3,8 @@ import { Navbar } from "react-bootstrap";
 import { Link } from 'react-scroll';
 import { Typography, Button } from '@material-ui/core';
 
+import logoImg from '../../assets/logoname1000.png';
+
 import './navigation.css';
 // import { Link, withRouter } from "react-router-dom";
 
@@ -10,24 +12,22 @@ import './navigation.css';
 function Navigation(props) {
 
   return (
-    <Navbar fixed="top" bg="light" expand="lg">
-      <Typography id="title" variant="h6">
-        Portfolio
-      </Typography>
+    <Navbar id="navbar" fixed="top" expand="lg">
+      <img src={logoImg} height="110" width="auto"></img>
       <Navbar.Toggle />
       <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
 
         <Link activeClass="active" to="Home" spy={true} offset={-100} smooth={true}>
-          <Button color="inherit">Home</Button>
+          <Button id="navBtn">Home</Button>
         </Link>
-        <Link activeClass="active" to="About" spy={true} offset={-100} smooth={true}>
-          <Button color="inherit">About</Button>
+        <Link activeClass="active" to="About" spy={true} offset={-120} smooth={true}>
+          <Button id="navBtn">About</Button>
         </Link>
         <Link activeClass="active" to="Work" spy={true} offset={-100} smooth={true}>
-          <Button color="inherit">Work</Button>
+          <Button id="navBtn">Work</Button>
         </Link>
-        <Link activeClass="active" to="Contact" spy={true} offset={-80} smooth={true}>
-          <Button color="inherit">Contact</Button>
+        <Link activeClass="active" to="Contact" spy={true} offset={-95} smooth={true}>
+          <Button id="navBtn">Contact</Button>
         </Link>
 
       </Navbar.Collapse>
