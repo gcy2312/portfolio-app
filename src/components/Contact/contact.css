@@ -1,29 +1,53 @@
 #contact-header{
   text-align: right;
   margin-top: 30px;
+  padding-top: 15px;
+  text-align: right;
+  color: #e45f05;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 700;
+}
+#logoImg{
+  opacity: 0.2;
+  position: absolute;
+  right:100px;
+  width: 'auto';
+  height: 100%;
 }
 .contact{
-  margin-top: 30px;
+  overflow: hidden;
+  position: relative;
 }
 #form{
   justify-content: center;
   margin-top: 30px;
+  
 }
 #form-input{
-  margin-left: 20px;
-  margin-right: 20px;
   margin-bottom: 20px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+ 
 }
 #form-message{
   margin-inline: 20px;
   margin-bottom: 20px;
-  /* margin-left:20px;
-  margin-right: 20px; */
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+#formBtn{
+  background-color: #e45f05;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Montserrat';
+  width: '80%';
 }
 
 @media all and (min-width: 500px) and (max-width: 1000px) {
   #form-input{
     margin-left: 0px;
     margin-right: 0px;
+    
   }
 }
