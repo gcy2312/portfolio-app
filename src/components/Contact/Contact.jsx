@@ -5,6 +5,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import { AccountCircle, AlternateEmail, Message, Phone, Subject } from '@material-ui/icons';
 import { Row, Col } from 'react-bootstrap';
 
+import logoImg from '../../assets/logoDark700.png';
+
 import './contact.css'
 
 
@@ -24,10 +26,11 @@ function Contact() {
   return (
     <div id="Contact" className="contact">
       <div class="container">
-        <Typography id="contact-header" variant="h3">Contact</Typography>
+        <img id="logoImg" src={logoImg}></img>
+        <Typography id="contact-header" >CONTACT</Typography>
         <Row className="justify-content-md-center">
 
-          <Col md={7}>
+          <Col md={8}>
 
             <form id="form" className={classes.root} noValidate autoComplete="off">
               <TextField id="form-input"
@@ -86,7 +89,7 @@ function Contact() {
                 style={{ margin: 8 }}
                 multiline
                 rows={5}
-                fullWidth
+                style={{ width: 600 }}
                 margin="normal"
                 InputProps={{
                   startAdornment: (
@@ -104,11 +107,11 @@ function Contact() {
 
               {/* <Button size="block" type="submit">Submit form</Button> */}
               <ButtonGroup
-                color="primary"
                 variant="contained"
                 aria-label="outlined primary button group"
-                fullWidth="true">
-                <Button>Send Message</Button>
+                fullWidth="true"
+                style={{ width: 600 }}>
+                <Button id="formBtn">Send Message</Button>
               </ButtonGroup>
             </form>
 
