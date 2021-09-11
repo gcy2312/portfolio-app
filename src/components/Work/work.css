@@ -2,6 +2,7 @@
 .work{
   padding-top: 30px;
   padding-bottom: 100px;
+  background-color: #000;
 }
 .project-links{
   display: flex;
@@ -9,7 +10,43 @@
   margin-top: 30px;
   margin-right: 60px;
 }
-
 #project-desc{
   padding-top: 20px;
+   font-family: 'Montserrat';
+  font-weight: 500;
+  color:#fff;
+}
+#title{
+  font-family: 'Sarpanch';
+  font-weight: 600;
+  font-size: 40px;
+  color:#fff;
+}
+#subtitle{
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color:#fff;
+  font-size: 18px;
+  color:#fff;
+}
+#projectImg{
+  border-radius: 10px;
+  border:5px;
+  border-color: #fff;
+}
+#projectBtn{
+  background-color: #e45f05;
+  color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+#projectBtn:hover, #projectBtn:focus{
+  text-decoration: underline;
+}
+#work-header{
+   padding-top: 15px;
+  color: #e45f05;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 700;
 }
