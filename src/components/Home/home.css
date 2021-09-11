@@ -1,13 +1,25 @@
+#Home{
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 10px;
+}
+.bgImg{
+  opacity: 0.15;
+  position: absolute;
+  right:400px;
+  width: 70%;
+  height: auto;
+}
 .home{
   padding-top: 140px;
-  padding-bottom: 120px;
+  padding-bottom: 130px;
   background-color: #000;
-  height: 600px;
+  height: 610px;
 }
 .typist{
   margin-left: 90px;
   text-align: left;
-  font-family: 'roboto';
+  font-family: 'Montserrat';
   font-size: 25px;
 }
 .onetab{
