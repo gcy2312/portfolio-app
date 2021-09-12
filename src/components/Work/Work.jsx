@@ -17,7 +17,7 @@ import apiImg from '../../assets/api-img.png';
 function Work(props) {
   var items = [
     {
-      title: "Client-Side Angular",
+      title: "CLIENT-SIDE ANGULAR",
       subtitle: "AngularCLI, MaterialUI, CSS",
       description: "A re-build of client-side for myFlix app using Angular. Same IMDB functionality implemented using Angular CLI, SCSS, and Material UI.",
       imagePath: `${angularClientImg}`,
@@ -25,7 +25,7 @@ function Work(props) {
       gitLink: "https://github.com/gcy2312/myFlix-Angular-client",
     },
     {
-      title: "Serverless Web App",
+      title: "SERVERLESS WEB APP",
       subtitle: "ReactJS, Jest, Enzyme, AWS Lambda",
       description: "PWA built using React. App uses Google Calendar API to fetch upcoming events, and AWS Lambda to host serverless functionality.Developped using TDD approach(Jest & Enzyme).",
       imagePath: `${meetImg}`,
@@ -33,7 +33,7 @@ function Work(props) {
       gitLink: "https://github.com/gcy2312/meet-app",
     },
     {
-      title: "Client-Side React",
+      title: "CLIENT-SIDE REACT",
       subtitle: "ReactJS, Bootstrap, CSS",
       description: "Client-side programming for myFlix app using ReactJS. IMDB functionality, where users can browse and favorite a selection of movies.Uses MERN stack, Bootstrap, CSS.",
       imagePath: `${reactClientImg}`,
@@ -41,7 +41,7 @@ function Work(props) {
       gitLink: "https://github.com/gcy2312/myFlix-client"
     },
     {
-      title: "JavaScript App",
+      title: "JAVASCRIPT APP",
       subtitle: "JavaScript, Bootstrap, CSS",
       description: "Lightweight JavaScript application (Pokedex). Uses external API, HTML, CSS, and Bootstrap.",
       imagePath: `${pokedexImg}`,
@@ -49,7 +49,7 @@ function Work(props) {
       gitLink: "https://github.com/gcy2312/Pokedex",
     },
     {
-      title: "Native Mobile App",
+      title: "NATIVE MOBILE APP",
       subtitle: "ReactNative, CSS",
       description: "Native mobile chat app developped using React Native. Provide users with chat interface (GiftedChat) and functionality to share images, location, and take photo with device camera.",
       imagePath: `${chatImg}`,
@@ -108,9 +108,9 @@ function Item(props) {
         <Typography id="project-desc" >{props.item.description}</Typography>
 
         <div className="project-links">
-          <Button id="projectBtn" variant="contained" href={props.item.gitLink}>GitHub</Button>
+          <Button id="projectBtn" variant="contained" href={props.item.gitLink} target="_blank">GitHub</Button>
           {
-            props.item.liveLink ? <Button id="projectBtn" variant="contained" href={props.item.liveLink}>Live project</Button> : null
+            props.item.liveLink ? <Button id="projectBtn" variant="contained" href={props.item.liveLink} target="_blank">Live project</Button> : null
           }
 
 

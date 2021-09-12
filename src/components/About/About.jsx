@@ -54,7 +54,7 @@ function About() {
         <Row className="justify-content-md-center">
           <img id="bgMapImg" src={mapWB}></img>
           <Col md={6}>
-            <Typography id="background-header" >Background</Typography>
+            <Typography id="background-header" >BACKGROUND</Typography>
             <Typography id="background-text" > I am Genevieve Cyr, a web developer with the tools and experience to help you realize your next project.
               Whether it be a mobile app or a business website, I can help you materialize your vision.<br />
               Professional, intuitive and dedicated. I am putting my decade long career an an audio engineer to new use. Using the the skills, both technical and creative, that I have acquired over my careeer, and chanelling them to build and design innovative apps and websites.<br />
@@ -64,7 +64,7 @@ function About() {
           </Col>
           <Col md={6}>
             {/* <SlideInRightDiv> */}
-            <Typography id="toolbelt-header" >Toolbelt</Typography>
+            <Typography id="toolbelt-header" >TOOLBELT</Typography>
             {/* </SlideInRightDiv> */}
 
             <div className={classes.root}>
