@@ -1,5 +1,6 @@
 import React from "react";
 import './footer.css';
+import { Navbar } from "react-bootstrap";
 import { BottomNavigation, Link, Container, Box } from "@material-ui/core";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -10,7 +11,8 @@ import skypeImg from '../../assets/skype.svg';
 function Footer() {
   return (
 
-    <Container className="footer" >
+    // <Container className="footer" expand="large" id="Footer" >
+    <Navbar id="Footer" expand="large" className="justify-content-center" >
 
       <BottomNavigation id="icons-nav">
         <Link
@@ -39,8 +41,8 @@ function Footer() {
         </Link>
 
       </BottomNavigation>
-
-    </Container>
+    </Navbar>
+    // </Container>
 
   );
 }
