@@ -33,13 +33,15 @@ const SlideInRightDiv = styled.div
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    flexGrow: 1,
+    // flexGrow: 1,
+    display: 'flex',
+    flexWrap: 'wrap',
   },
   icons: {
     padding: theme.spacing(1),
-    width: '90px',
+    width: '80px',
     height: 'auto',
-    // textAlign: 'center',
+    textAlign: 'center',
     color: theme.palette.text.secondary,
   },
 }));
@@ -53,64 +55,66 @@ function About() {
         <Typography id="about-header" >ABOUT</Typography>
         <Row className="justify-content-md-center">
           <img id="bgMapImg" src={mapWB}></img>
-          <Col md={6}>
+          <Col md={7} sm={12}>
             <Typography id="background-header" >BACKGROUND</Typography>
             <Typography id="background-text" > I am Genevieve Cyr, a web developer with the tools and experience to help you realize your next project.
               Whether it be a mobile app or a business website, I can help you materialize your vision.<br />
               Professional, intuitive and dedicated. I am putting my decade long career an an audio engineer to new use. Using the the skills, both technical and creative, that I have acquired over my careeer, and chanelling them to build and design innovative apps and websites.<br />
               I am enthusiastic and eager to learn, so don't
-              hesitate if there are other programs you need - I am always happy to broaden my skills!
+              hesitate if there are other technologies you need - I am always happy to broaden my skills!
             </Typography>
           </Col>
-          <Col md={6}>
-            {/* <SlideInRightDiv> */}
-            <Typography id="toolbelt-header" >TOOLBELT</Typography>
-            {/* </SlideInRightDiv> */}
+        </Row>
+        <Row className="justify-content-center toolbelt">
+          <Col md={12}>
+
+            {/* <Typography id="toolbelt-header" >TOOLBELT</Typography>
+             */}
 
             <div className={classes.root}>
-              <Grid container spacing={1}>
-                <Grid item xs={2}>
-                  <img src={html5} width="90px" className={classes.icons}></img>
+              <Grid container spacing={0.5}>
+                <Grid item md={1} xs={3}>
+                  <img src={html5} className={classes.icons}></img>
                 </Grid>
-                <Grid item xs={2}>
-                  <img src={css3} width="90px" className={classes.icons}></img>
+                <Grid item md={1} xs={3}>
+                  <img src={css3} className={classes.icons}></img>
                 </Grid>
-                <Grid item xs={2}>
-                  <img src={bootstrap} width="90px" className={classes.icons}></img>
+                <Grid item md={1} xs={3}>
+                  <img src={bootstrap} className={classes.icons}></img>
                 </Grid>
-                <Grid item xs={2}>
-                  <img src={materialui} width="90px" className={classes.icons}></img>
+                <Grid item md={1} xs={3}>
+                  <img src={materialui} className={classes.icons}></img>
                 </Grid>
-                <Grid item xs={2}>
-                  <img src={javascript} width="90px" className={classes.icons}></img>
+                <Grid item md={1} xs={3}>
+                  <img src={javascript} className={classes.icons}></img>
                 </Grid>
-                <Grid item xs={2}>
-                  <img src={nodejs} width="90px" className={classes.icons}></img>
+                <Grid item md={1} xs={3}>
+                  <img src={nodejs} className={classes.icons}></img>
                 </Grid>
-                <Grid item xs={2}>
-                  <img src={mongodb} width="90px" className={classes.icons}></img>
+                <Grid item md={1} xs={3}>
+                  <img src={mongodb} className={classes.icons}></img>
                 </Grid>
-                <Grid item xs={2}>
-                  <img src={postgre} width="90px" className={classes.icons}></img>
+                <Grid item md={1} xs={3}>
+                  <img src={postgre} className={classes.icons}></img>
                 </Grid>
-                <Grid item xs={2}>
-                  <img src={react} width="90px" className={classes.icons}></img>
+                <Grid item md={1} xs={3}>
+                  <img src={react} className={classes.icons}></img>
                 </Grid>
-                <Grid item xs={2}>
-                  <img src={angular} width="90px" className={classes.icons}></img>
+                <Grid item md={1} xs={3}>
+                  <img src={angular} className={classes.icons}></img>
                 </Grid>
-                <Grid item xs={2}>
-                  <img src={github} width="90px" className={classes.icons}></img>
+                {/* <Grid item md={1} xs={3}>
+                  <img src={github} className={classes.icons}></img>
+                </Grid> */}
+                <Grid item md={1} xs={3}>
+                  <img src={postman} className={classes.icons}></img>
                 </Grid>
-                <Grid item xs={2}>
-                  <img src={postman} width="90px" className={classes.icons}></img>
+                <Grid item md={1} xs={3}>
+                  <img src={npm} className={classes.icons}></img>
                 </Grid>
-                <Grid item xs={2}>
-                  <img src={npm} width="90px" className={classes.icons}></img>
-                </Grid>
-                <Grid item xs={2}>
-                  <img src={redux} width="90px" className={classes.icons}></img>
-                </Grid>
+                {/* <Grid item md={1} xs={3}>
+                  <img src={redux} className={classes.icons}></img>
+                </Grid> */}
               </Grid>
             </div>
           </Col>
