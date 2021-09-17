@@ -12,20 +12,20 @@ function Footer() {
 
     <Container className="footer" >
 
-      <BottomNavigation>
+      <BottomNavigation id="icons-nav">
         <Link
           rel="noopener noreferrer" href="https://github.com/gcy2312?tab=repositories" target="_blank">
-          <GitHubIcon class="link-icons" />
+          <GitHubIcon class="link-icons" style={{ fill: '#e45f05' }} />
         </Link>
 
         <Link
           rel="noopener noreferrer" href="https://www.linkedin.com/in/genevieve-cyr-08553739/" target="_blank">
-          <LinkedInIcon class="link-icons" />
+          <LinkedInIcon class="link-icons" style={{ fill: '#e45f05' }} />
         </Link>
 
         <Link
           rel="noopener noreferrer" href="https://twitter.com/genevieve_cyr" target="_blank">
-          <TwitterIcon class="link-icons" />
+          <TwitterIcon class="link-icons" style={{ fill: '#e45f05' }} />
         </Link>
 
         <Link
