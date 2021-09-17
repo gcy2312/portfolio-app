@@ -31,8 +31,13 @@
 }
 #projectImg{
   border-radius: 10px;
-  border:5px;
-  border-color: #fff;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  background-color: black;
+  padding:20px;
+  width:auto;
+  height:300px;
 }
 #projectBtn{
   background-color: #e45f05;
@@ -44,9 +49,23 @@
   text-decoration: underline;
 }
 #work-header{
-   padding-top: 15px;
+   padding-top: 30px;
   color: #e45f05;
   font-family: 'Montserrat';
   font-size: 20px;
   font-weight: 700;
+}
+.carousel{
+  padding-top: 30px;
+}
+
+@media all and (min-width: 400px) and (max-width: 750px) {
+  #projectImg{
+    height:auto;
+    width:100%;
+  }
+  .carousel{
+    margin-left: 10px;
+    margin-right:10px;
+  }
 }
