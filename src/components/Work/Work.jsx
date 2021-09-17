@@ -70,7 +70,7 @@ function Work(props) {
     <div id="Work" className="work">
       <div class="container" >
         <Typography id="work-header" >WORK</Typography>
-        <Row md={12}>
+        <Row md={12} className="carousel">
           <Carousel
             animation="slide"
             interval="6000"
@@ -92,11 +92,9 @@ function Item(props) {
     <Row className="justify-content-center">
       <Col md={7}>
         <img
-          className="d-block w-100"
+          className="d-block w-100 p-2"
           src={props.item.imagePath}
           alt="Images of projects"
-          width="auto"
-          height="300px"
           id="projectImg"
         />
       </Col>
