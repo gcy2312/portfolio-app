@@ -1,10 +1,11 @@
 .about{
-  padding-bottom: 115px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   overflow: hidden;
   position: relative;
 }
 #bgMapImg{
-  opacity: 0.2;
+  opacity: 0.13;
   position:absolute;
   justify-content:  center;
   left: 0;
@@ -13,8 +14,8 @@
   height: 100%;
 }
 #about-header{
-  padding-top: 15px;
-  text-align: right;
+  padding-top: 30px;
+  text-align: center;
   color: #e45f05;
   font-family: 'Montserrat';
   font-size: 20px;
@@ -22,14 +23,32 @@
 }
 #background-text{
   margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 15px;
   line-height: 1.5;
+  font-family: 'Montserrat';
+  font-weight: 500;
 }
 #background-header, #toolbelt-header{
   font-family: 'Sarpanch';
   font-weight: 600;
   font-size: 40px;
+  margin-top: 30px;
 }
-#background-text{
-  font-family: 'Montserrat';
-  font-weight: 500;
+#background-header{
+  text-align: center;
+}
+.toolbelt{
+  margin-top: 40px;
+}
+
+@media all and (min-width: 400px) and (max-width: 750px) {
+  #background-text{
+    font-size: 18px;
+    margin-left:5px;
+    margin-right:5px;
+  }
+  #about-header{
+    padding-top:10px ;
+  }
 }
