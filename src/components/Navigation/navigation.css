@@ -1,6 +1,7 @@
 #navbar{
   /* background-color: #252b31; */
   background-color: #000;
+  padding-bottom: 0px;
 }
 #title {
   display: flex;
