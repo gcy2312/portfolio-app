@@ -12,7 +12,7 @@ import './navigation.css';
 function Navigation(props) {
 
   return (
-    <Navbar id="navbar" fixed="top" expand="lg">
+    <Navbar id="navbar" fixed="top">
       <img src={logoImg} height="80" width="auto"></img>
       <Navbar.Toggle />
       <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
