@@ -26,7 +26,7 @@ function Home() {
 
         <Row className="justify-content-md-center">
 
-          <Col md={7}>
+          <Col md={7} sm={12}>
             <img class="bgImg" src={logoImg}></img>
             <Container>
 
