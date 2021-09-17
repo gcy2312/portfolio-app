@@ -13,20 +13,20 @@ function Navigation(props) {
 
   return (
     <Navbar id="navbar" fixed="top" expand="lg">
-      <img src={logoImg} height="110" width="auto"></img>
+      <img src={logoImg} height="80" width="auto"></img>
       <Navbar.Toggle />
       <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
 
         <Link activeClass="active" to="Home" spy={true} offset={-100} smooth={true}>
           <Button id="navBtn">Home</Button>
         </Link>
-        <Link activeClass="active" to="About" spy={true} offset={-120} smooth={true}>
+        <Link activeClass="active" to="About" spy={true} offset={-40} smooth={true}>
           <Button id="navBtn">About</Button>
         </Link>
-        <Link activeClass="active" to="Work" spy={true} offset={-100} smooth={true}>
+        <Link activeClass="active" to="Work" spy={true} offset={-80} smooth={true}>
           <Button id="navBtn">Work</Button>
         </Link>
-        <Link activeClass="active" to="Contact" spy={true} offset={-95} smooth={true}>
+        <Link activeClass="active" to="Contact" spy={true} offset={-85} smooth={true}>
           <Button id="navBtn">Contact</Button>
         </Link>
 
