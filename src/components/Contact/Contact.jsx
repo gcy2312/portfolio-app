@@ -88,7 +88,7 @@ function Contact() {
                 label="Message"
                 style={{ margin: 8 }}
                 multiline
-                rows={5}
+                rows={4}
                 style={{ width: 600 }}
                 margin="normal"
                 InputProps={{
