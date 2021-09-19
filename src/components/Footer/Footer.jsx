@@ -17,17 +17,17 @@ function Footer() {
       <BottomNavigation id="icons-nav">
         <Link
           rel="noopener noreferrer" href="https://github.com/gcy2312?tab=repositories" target="_blank">
-          <GitHubIcon class="link-icons" style={{ fill: '#e45f05' }} />
+          <GitHubIcon class="link-icons" style={{ fill: '#fff' }} />
         </Link>
 
         <Link
           rel="noopener noreferrer" href="https://www.linkedin.com/in/genevieve-cyr-08553739/" target="_blank">
-          <LinkedInIcon class="link-icons" style={{ fill: '#e45f05' }} />
+          <LinkedInIcon class="link-icons" style={{ fill: '#fff' }} />
         </Link>
 
         <Link
           rel="noopener noreferrer" href="https://twitter.com/genevieve_cyr" target="_blank">
-          <TwitterIcon class="link-icons" style={{ fill: '#e45f05' }} />
+          <TwitterIcon class="link-icons" style={{ fill: '#fff' }} />
         </Link>
 
         <Link
