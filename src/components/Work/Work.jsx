@@ -148,8 +148,6 @@ function Item(props) {
             <AppBar className={classes.appBar} id="appBar">
               <Toolbar id="modalToolbar">
                 <img id="myFlixLogo" src={myFlixLogo} />
-                {/* <Typography className={classes.title} id="modalTitle" variant="h6">MEAN-Stack Web App
-                </Typography> */}
                 <IconButton autoFocus edge="start" id="modalClose" color="inherit" onClick={handleClose} aria-label="close">
                   <CloseIcon />
                 </IconButton>

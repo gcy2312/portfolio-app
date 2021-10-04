@@ -86,11 +86,7 @@ function Contact() {
           <Col md={8}>
 
             <form id="form" className={classes.root} noValidate autoComplete="off"
-              onSubmit={handleSubmit(onSubmit)}
-
-            // action="https://formspree.io/f/mzbywgln"
-            //   method="POST"
-            >
+              onSubmit={handleSubmit(onSubmit)}>
               <TextField id="form-input"
                 required
                 name="name" type="text"
@@ -199,7 +195,6 @@ function Contact() {
                 variant="outlined"
               /> {errors.message && <span className='errorMessage'>Please enter a message</span>}
 
-              {/* <Button size="block" type="submit">Submit form</Button> */}
               <ButtonGroup
                 variant="contained"
                 aria-label="outlined primary button group"
