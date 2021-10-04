@@ -7,7 +7,7 @@
   font-weight: 700;
 }
 #logoImg{
-  opacity: 0.2;
+  opacity: 0.1;
   position: absolute;
   right:100px;
   width: 'auto';
@@ -42,7 +42,9 @@
   font-size: 18px;
   font-family: 'Montserrat';
   width: '80%';
+  margin:5px;
 }
+
 
 @media all and (min-width: 500px) and (max-width: 1000px) {
   #form-input{
