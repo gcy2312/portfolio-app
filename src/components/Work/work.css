@@ -59,6 +59,14 @@
   padding-top: 30px;
 }
 
+#appBar{
+  background-color: #000;
+}
+#modalToolbar{
+  display: flex;
+  justify-content: space-between;
+}
+
 @media all and (min-width: 400px) and (max-width: 750px) {
   #projectImg{
     height:auto;
@@ -67,5 +75,13 @@
   .carousel{
     margin-left: 10px;
     margin-right:10px;
+  }
+  #myFlixLogo{
+    width: 150px;
+  }
+  #modalTitle{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
   }
 }
