@@ -14,6 +14,7 @@ import { AccountCircle, AlternateEmail, Message, Phone, Subject } from '@materia
 import { Row, Col } from 'react-bootstrap';
 
 import logoImg from '../../assets/logoDark700.png';
+import gcyrCV from '../../assets/CYR_Genevieve_CV.pdf';
 
 import './contact.css'
 init("user_AG0ULrLC9DyJpSyTnnKNn");
@@ -67,6 +68,12 @@ function Contact() {
       className: 'submit-feedback success',
       toastId: 'notifyToast'
     });
+  };
+  const onDownload = () => {
+    const link = document.createElement("a");
+    link.download = `CYR_Genevieve_CV.pdf`;
+    link.href = { gcyrCV };
+    link.click();
   };
 
   return (
@@ -205,9 +212,7 @@ function Contact() {
                 variant="contained"
                 aria-label="outlined primary button group"
                 fullWidth="true"
-                href="files.cv.pdf"
-                download
-                target="_blank"
+                onClick={onDownload}
                 style={{ width: 600 }}>
                 <Button id="formBtn">Download CV</Button>
               </ButtonGroup>
