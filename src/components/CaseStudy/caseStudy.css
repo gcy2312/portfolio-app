@@ -1,0 +1,61 @@
+#caseStudy-container{
+  box-sizing: border-box;
+  margin-left: 1rem;
+  padding:20px;
+  font-family: 'Montserrat';
+  font-size: 18px;
+}
+#CSsubheader{
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size:22px;
+}
+.CSpurposePhotos, #CSprojectPhotos{
+  text-align: center;
+  margin-bottom: 5px;
+}
+.CSimages{
+  margin-bottom: 10px;
+  padding-inline: 10px;
+}
+.CSprojectplan{
+  padding-right: 20px;
+}
+#phase-container{
+  padding:10px;
+}
+#linkBtn{
+  margin-inline: 10px;
+  background-color: #e50913;
+  color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+#linkBtn:hover, #projectBtn:focus{
+  text-decoration: underline;
+}
+
+#CSchallengesHeader, #projectPlanHeader, #projectOverviewHeader{
+  color: #e50913;
+  font-family: 'Sarpanch';
+  font-weight: 600;
+  font-size: 35px;
+  padding-top:20px;
+}
+#phaseHeader{
+font-family: 'Montserrat';
+  font-weight: 500;
+  font-size:22px;
+}
+
+@media all and (min-width: 400px) and (max-width: 750px) {
+  #linkBtn{
+    margin-bottom: 10px;
+  }
+  .CSimages{
+    width:90%;
+  }
+  #card{
+    margin-bottom: 10px;
+  }
+}
