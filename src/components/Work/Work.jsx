@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
+
+import CaseStudy from '../CaseStudy/CaseStudy';
+
+import IconButton from '@material-ui/core/IconButton';
+import CloseIcon from '@material-ui/icons/Close';
+
+import { makeStyles } from '@material-ui/core/styles';
+
 import { Row, Col } from 'react-bootstrap';
-import { Typography, Button } from '@material-ui/core';
+import { Typography, Button, Dialog, DialogTitle, Slide, Toolbar, AppBar } from '@material-ui/core';
 import Carousel from 'react-material-ui-carousel'
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
@@ -12,6 +20,7 @@ import chatImg from '../../assets/chatapp-img.png';
 import meetImg from '../../assets/meetapp-img.png';
 import pokedexImg from '../../assets/pokedex-img.png';
 import apiImg from '../../assets/api-img.png';
+import myFlixLogo from '../../assets/myflix-logo.png';
 
 
 function Work(props) {
@@ -23,6 +32,7 @@ function Work(props) {
       imagePath: `${angularClientImg}`,
       liveLink: "https://gcy2312.github.io/myFlix-Angular-client/welcome",
       gitLink: "https://github.com/gcy2312/myFlix-Angular-client",
+      caseStudyLink: "testlink.com"
     },
     {
       title: "SERVERLESS WEB APP",
@@ -87,7 +97,27 @@ function Work(props) {
   )
 }
 
+const useStyles = makeStyles((theme) => ({
+  appBar: {
+    position: 'relative',
+  }
+}));
+const Transition = React.forwardRef(function Transition(props, ref) {
+  return <Slide direction="up" ref={ref} {...props} />;
+});
+
+
 function Item(props) {
+  const classes = useStyles();
+  const [open, setOpen] = useState(false);
+
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+  const handleClose = () => {
+    setOpen(false);
+  };
+
   return (
     <Row className="justify-content-center">
       <Col md={7}>
@@ -106,10 +136,27 @@ function Item(props) {
         <Typography id="project-desc" >{props.item.description}</Typography>
 
         <div className="project-links">
-          <Button id="projectBtn" variant="contained" href={props.item.gitLink} target="_blank">GitHub</Button>
+          <Button id="projectBtn" variant="contained" href={props.item.gitLink} target="_blank">{'</>'}</Button>
           {
-            props.item.liveLink ? <Button id="projectBtn" variant="contained" href={props.item.liveLink} target="_blank">Live project</Button> : null
+            props.item.liveLink ? <Button id="projectBtn" variant="contained" href={props.item.liveLink} target="_blank">Live</Button> : null
           }
+          {
+            props.item.caseStudyLink ? <Button id="projectBtn" variant="contained" onClick={handleClickOpen} >Case Study</Button> : null
+          }
+
+          <Dialog fullScreen TransitionComponent={Transition} onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
+            <AppBar className={classes.appBar} id="appBar">
+              <Toolbar id="modalToolbar">
+                <img id="myFlixLogo" src={myFlixLogo} />
+                {/* <Typography className={classes.title} id="modalTitle" variant="h6">MEAN-Stack Web App
+                </Typography> */}
+                <IconButton autoFocus edge="start" id="modalClose" color="inherit" onClick={handleClose} aria-label="close">
+                  <CloseIcon />
+                </IconButton>
+              </Toolbar>
+            </AppBar>
+            <CaseStudy />
+          </Dialog>
 
 
         </div>
