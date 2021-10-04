@@ -12,10 +12,11 @@ import './navigation.css';
 function Navigation(props) {
 
   return (
-    <Navbar id="navbar" fixed="top">
+    <Navbar id="navbar" expand="lg" fixed="top">
       <img src={logoImg} height="80" width="auto"></img>
-      <Navbar.Toggle />
-      <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+
 
         <Link activeClass="active" to="Home" spy={true} offset={-100} smooth={true}>
           <Button id="navBtn">Home</Button>
@@ -26,7 +27,7 @@ function Navigation(props) {
         <Link activeClass="active" to="Work" spy={true} offset={-80} smooth={true}>
           <Button id="navBtn">Work</Button>
         </Link>
-        <Link activeClass="active" to="Contact" spy={true} offset={-85} smooth={true}>
+        <Link activeClass="active" to="Contact" spy={true} offset={-50} smooth={true}>
           <Button id="navBtn">Contact</Button>
         </Link>
 
