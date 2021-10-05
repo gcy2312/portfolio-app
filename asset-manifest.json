@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.d84a510e.chunk.css",
-    "main.js": "/portfolio-app/static/js/main.3549f912.chunk.js",
-    "main.js.map": "/portfolio-app/static/js/main.3549f912.chunk.js.map",
+    "main.css": "/portfolio-app/static/css/main.34514f4f.chunk.css",
+    "main.js": "/portfolio-app/static/js/main.d245d634.chunk.js",
+    "main.js.map": "/portfolio-app/static/js/main.d245d634.chunk.js.map",
     "runtime-main.js": "/portfolio-app/static/js/runtime-main.449ea7f0.js",
     "runtime-main.js.map": "/portfolio-app/static/js/runtime-main.449ea7f0.js.map",
     "static/css/2.68fdb14c.chunk.css": "/portfolio-app/static/css/2.68fdb14c.chunk.css",
@@ -14,7 +14,7 @@
     "service-worker.js": "/portfolio-app/service-worker.js",
     "service-worker.js.map": "/portfolio-app/service-worker.js.map",
     "static/css/2.68fdb14c.chunk.css.map": "/portfolio-app/static/css/2.68fdb14c.chunk.css.map",
-    "static/css/main.d84a510e.chunk.css.map": "/portfolio-app/static/css/main.d84a510e.chunk.css.map",
+    "static/css/main.34514f4f.chunk.css.map": "/portfolio-app/static/css/main.34514f4f.chunk.css.map",
     "static/js/2.f44f0dbf.chunk.js.LICENSE.txt": "/portfolio-app/static/js/2.f44f0dbf.chunk.js.LICENSE.txt",
     "static/media/CDgenre.605380d2.png": "/portfolio-app/static/media/CDgenre.605380d2.png",
     "static/media/CScode.1a8ff7e2.png": "/portfolio-app/static/media/CScode.1a8ff7e2.png",
@@ -34,7 +34,7 @@
     "static/media/javascript.ac12790c.svg": "/portfolio-app/static/media/javascript.ac12790c.svg",
     "static/media/logo700.c2b4c06e.png": "/portfolio-app/static/media/logo700.c2b4c06e.png",
     "static/media/logoDark700.d09e382f.png": "/portfolio-app/static/media/logoDark700.d09e382f.png",
-    "static/media/logoname1000.588b05a7.png": "/portfolio-app/static/media/logoname1000.588b05a7.png",
+    "static/media/logoname1000.131d8f74.png": "/portfolio-app/static/media/logoname1000.131d8f74.png",
     "static/media/mapWB.0f946690.png": "/portfolio-app/static/media/mapWB.0f946690.png",
     "static/media/materialui.8e8d37c6.svg": "/portfolio-app/static/media/materialui.8e8d37c6.svg",
     "static/media/meetapp-img.41a5fe55.png": "/portfolio-app/static/media/meetapp-img.41a5fe55.png",
@@ -54,7 +54,7 @@
     "static/js/runtime-main.449ea7f0.js",
     "static/css/2.68fdb14c.chunk.css",
     "static/js/2.f44f0dbf.chunk.js",
-    "static/css/main.d84a510e.chunk.css",
-    "static/js/main.3549f912.chunk.js"
+    "static/css/main.34514f4f.chunk.css",
+    "static/js/main.d245d634.chunk.js"
   ]
 }
