@@ -8,7 +8,7 @@ import CloseIcon from '@material-ui/icons/Close';
 import { makeStyles } from '@material-ui/core/styles';
 
 import { Row, Col } from 'react-bootstrap';
-import { Typography, Button, Dialog, DialogTitle, Slide, Toolbar, AppBar } from '@material-ui/core';
+import { Typography, Button, Dialog, Slide, Toolbar, AppBar } from '@material-ui/core';
 import Carousel from 'react-material-ui-carousel'
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';

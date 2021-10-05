@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar } from "react-bootstrap";
 import { Link } from 'react-scroll';
-import { Typography, Button } from '@material-ui/core';
+import { Button } from '@material-ui/core';
 
 import logoImg from '../../assets/logoname1000.png';
 

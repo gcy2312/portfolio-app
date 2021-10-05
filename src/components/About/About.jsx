@@ -3,10 +3,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import { Row, Col } from 'react-bootstrap';
 
-import styled, { keyframes } from "styled-components";
-import { slideInRight } from "react-animations";
-import ScrollAnimation from 'react-animate-on-scroll';
-
 import html5 from '../../assets/html5.svg';
 import css3 from '../../assets/css3.svg';
 import bootstrap from '../../assets/bootstrap.svg';
@@ -26,10 +22,6 @@ import mapWB from '../../assets/mapWB.png';
 
 import './about.css';
 import { Typography } from "@material-ui/core";
-
-const SlideInRightAnimation = keyframes`${slideInRight}`;
-const SlideInRightDiv = styled.div
-  `animation: 3s ${SlideInRightAnimation};`;
 
 const useStyles = makeStyles((theme) => ({
   root: {
