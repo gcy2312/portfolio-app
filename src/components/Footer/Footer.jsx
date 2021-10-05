@@ -1,7 +1,7 @@
 import React from "react";
 import './footer.css';
 import { Navbar } from "react-bootstrap";
-import { BottomNavigation, Link, Container, Box } from "@material-ui/core";
+import { BottomNavigation, Link } from "@material-ui/core";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TwitterIcon from '@material-ui/icons/Twitter';

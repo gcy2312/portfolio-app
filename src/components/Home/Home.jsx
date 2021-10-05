@@ -31,7 +31,7 @@ function Home() {
             <Container>
 
               <Typist avgTypingDelay={20} stdTypingDelay={10} className="typist">
-                <span className="gray">//declare web developer</span><br />
+                <span className="gray">{'//declare web developer'}</span><br />
                 <span className="orange">const </span><span className="blue">genevieveCyr </span><span className="pink">= </span>
                 <span className="blue">(</span><span className="yellow">name</span><span className="blue">) </span><span className="orange">{'=> '}</span>
                 <span className="white">{' {'}</span>

@@ -176,10 +176,9 @@ function Contact() {
                   required: true
                 })}
                 label="Message"
-                style={{ margin: 8 }}
+                style={{ margin: 8, width: 600 }}
                 multiline
                 rows={4}
-                style={{ width: 600 }}
                 margin="normal"
                 InputProps={{
                   startAdornment: (

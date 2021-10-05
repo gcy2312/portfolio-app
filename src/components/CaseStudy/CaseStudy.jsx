@@ -12,7 +12,6 @@ import genreView from '../../assets/CDgenre.png';
 
 import './caseStudy.css';
 
-
 function CaseStudy() {
 
   return (
