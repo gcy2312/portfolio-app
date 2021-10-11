@@ -36,7 +36,7 @@ function Footer() {
         </Link>
 
         <Link
-          rel="noopener noreferrer" href="skype:<gma.cyr>[?[add|call|chat|sendfile|userinfo]]" target="_blank">
+          rel="noopener noreferrer" target="_blank" href="skype:gma.cyr?chat">
           <img src={skypeImg} class="link-icons"></img>
         </Link>
 
