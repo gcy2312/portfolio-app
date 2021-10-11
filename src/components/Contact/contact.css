@@ -44,6 +44,9 @@
   width: '80%';
   margin:5px;
 }
+#cvDownload:hover{
+  text-decoration: none;
+}
 
 
 @media all and (min-width: 500px) and (max-width: 1000px) {
