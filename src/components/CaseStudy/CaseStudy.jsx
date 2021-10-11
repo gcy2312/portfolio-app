@@ -59,19 +59,21 @@ function CaseStudy() {
           <ul>
             <li>
               Built RESTful  API using Node.js and
-              Express, which interacts with non-relational database (MongoDB).   API is accessed via HTTP methods (GET, PUT, POST, DELETE), and CRUD operations are used to retrieve and store data.
+              Express, which interacts with non-relational database (MongoDB)
+            </li>
+            <li>API is accessed via HTTP methods (GET, PUT, POST, DELETE), and CRUD operations are used to retrieve and store data
             </li>
             <li>
-              Movie and user data is stored in JSON format.
+              Movie and user data is stored in JSON format
             </li>
             <li>
-              Endpoints were tested using Postman.
+              Endpoints were tested using Postman
             </li>
             <li>
-              Authentication and authorization incorporated via HTTP and JWT authentication.
+              Authentication and authorization incorporated via HTTP and JWT authentication
             </li>
             <li>
-              In beginning of development client-side, an additional endpoint was added (GET /user/:Username) in order to display user data and not simply to edit personal data or add/remove movie from Favorites list.
+              In beginning of development client-side, an additional endpoint was added (GET /user/:Username) in order to display user data and not simply to edit personal data or add/remove movie from Favorites list
             </li>
           </ul>
           <Button id="linkBtn" variant="contained" href="https://myflix-movie-api-2312.herokuapp.com/documentation.html" target="_blank">API Endpoint Documentation</Button>
