@@ -69,12 +69,6 @@ function Contact() {
       toastId: 'notifyToast'
     });
   };
-  const onDownload = () => {
-    const link = document.createElement("a");
-    link.download = `CYR_Genevieve_CV.pdf`;
-    link.href = { gcyrCV };
-    link.click();
-  };
 
   return (
     <div id="Contact" className="contact">
@@ -201,15 +195,15 @@ function Contact() {
                 style={{ width: 600 }}>
                 <Button id="formBtn" type="submit">Send Message</Button>
               </ButtonGroup>
-
-              <ButtonGroup
-                variant="contained"
-                aria-label="outlined primary button group"
-                fullWidth="true"
-                onClick={onDownload}
-                style={{ width: 600 }}>
-                <Button id="formBtn">Download CV</Button>
-              </ButtonGroup>
+              <a id="cvDownload" href={gcyrCV} download>
+                <ButtonGroup
+                  variant="contained"
+                  aria-label="outlined primary button group"
+                  fullWidth="true"
+                  style={{ width: 600 }}>
+                  <Button id="formBtn">Download CV</Button>
+                </ButtonGroup>
+              </a>
             </form>
             <ToastContainer />
 
