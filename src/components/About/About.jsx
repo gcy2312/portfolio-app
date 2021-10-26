@@ -50,10 +50,9 @@ function About() {
           <Col md={7} sm={12}>
             <Typography id="background-header" >BACKGROUND</Typography>
             <Typography id="background-text" > I am Genevieve Cyr, a web developer with the tools and experience to help you realize your next project.
-              Whether it be a mobile app or a business website, I can help you materialize your vision.<br />
-              Professional, intuitive and dedicated. I am putting my decade long career an an audio engineer to new use. Using the the skills, both technical and creative, that I have acquired over my careeer, and chanelling them to build and design innovative apps and websites.<br />
-              I am enthusiastic and eager to learn, so don't
-              hesitate if there are other technologies you need - I am always happy to broaden my skills!
+              Whether it be a mobile app or a business website, I can help you execute your vision.<br />
+              Professional, intuitive, and dedicated - I am putting my decade-long training as an audio engineer to new use.  I leverage the technical and creative skills that I have developed over my career to build and design innovative apps and websites.<br />
+              Please don't hesitate if there are other technologies you need. I am enthusiastic, eager to learn and always happy to broaden my skills!
             </Typography>
           </Col>
         </Row>
