@@ -73,7 +73,7 @@ function Contact() {
   return (
     <div id="Contact" className="contact">
       <div class="container">
-        <img id="logoImg" src={logoImg}></img>
+        <img id="logoImg" alt="code background" src={logoImg}></img>
         <Typography id="contact-header" >CONTACT</Typography>
         <Row className="justify-content-md-center">
 

@@ -27,7 +27,7 @@ function Home() {
         <Row className="justify-content-md-center">
 
           <Col md={7} sm={12}>
-            <img class="bgImg" src={logoImg}></img>
+            <img class="bgImg" alt="Code background" src={logoImg}></img>
             <Container>
 
               <Typist avgTypingDelay={20} stdTypingDelay={10} className="typist">
@@ -67,8 +67,8 @@ function Home() {
 
           </Col>
         </Row>
-      </div>
-    </div>
+      </div >
+    </div >
   );
 }
 

@@ -153,7 +153,7 @@ function Item(props) {
           <Dialog fullScreen TransitionComponent={Transition} onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
             <AppBar className={classes.appBar} id="appBar">
               <Toolbar id="modalToolbar">
-                <img id="myFlixLogo" src={myFlixLogo} />
+                <img id="myFlixLogo" alt="myFlix logo" src={myFlixLogo} />
                 <IconButton autoFocus edge="start" id="modalClose" color="inherit" onClick={handleClose} aria-label="close">
                   <CloseIcon />
                 </IconButton>

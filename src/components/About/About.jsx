@@ -13,10 +13,10 @@ import mongodb from '../../assets/mongodb.svg';
 import postgre from '../../assets/postgre.svg';
 import react from '../../assets/react.svg';
 import angular from '../../assets/angular.svg';
-import github from '../../assets/github.svg';
+// import github from '../../assets/github.svg';
 import postman from '../../assets/postman.svg';
 import npm from '../../assets/npm.svg';
-import redux from '../../assets/redux.svg';
+// import redux from '../../assets/redux.svg';
 
 import mapWB from '../../assets/mapWB.png';
 
@@ -46,7 +46,7 @@ function About() {
       <div class="container">
         <Typography id="about-header" >ABOUT</Typography>
         <Row className="justify-content-md-center">
-          <img id="bgMapImg" src={mapWB}></img>
+          <img id="bgMapImg" alt="map background" src={mapWB}></img>
           <Col md={7} sm={12}>
             <Typography id="background-header" >BACKGROUND</Typography>
             <Typography id="background-text" > I am Genevieve Cyr, a web developer with the tools and experience to help you realize your next project.
@@ -65,43 +65,43 @@ function About() {
             <div className={classes.root}>
               <Grid container spacing={0.5}>
                 <Grid item md={1} xs={3}>
-                  <img src={html5} className={classes.icons}></img>
+                  <img src={html5} alt="HTML5 logo" className={classes.icons}></img>
                 </Grid>
                 <Grid item md={1} xs={3}>
-                  <img src={css3} className={classes.icons}></img>
+                  <img src={css3} alt="CSS3 logo" className={classes.icons}></img>
                 </Grid>
                 <Grid item md={1} xs={3}>
-                  <img src={bootstrap} className={classes.icons}></img>
+                  <img src={bootstrap} alt="Bootstrap logo" className={classes.icons}></img>
                 </Grid>
                 <Grid item md={1} xs={3}>
-                  <img src={materialui} className={classes.icons}></img>
+                  <img src={materialui} alt="Material UI logo" className={classes.icons}></img>
                 </Grid>
                 <Grid item md={1} xs={3}>
-                  <img src={javascript} className={classes.icons}></img>
+                  <img src={javascript} alt="JavaScript logo" className={classes.icons}></img>
                 </Grid>
                 <Grid item md={1} xs={3}>
-                  <img src={nodejs} className={classes.icons}></img>
+                  <img src={nodejs} alt="Node.js logo" className={classes.icons}></img>
                 </Grid>
                 <Grid item md={1} xs={3}>
-                  <img src={mongodb} className={classes.icons}></img>
+                  <img src={mongodb} alt="Mongo logo" className={classes.icons}></img>
                 </Grid>
                 <Grid item md={1} xs={3}>
-                  <img src={postgre} className={classes.icons}></img>
+                  <img src={postgre} alt="Postgre logo" className={classes.icons}></img>
                 </Grid>
                 <Grid item md={1} xs={3}>
-                  <img src={react} className={classes.icons}></img>
+                  <img src={react} alt="React logo" className={classes.icons}></img>
                 </Grid>
                 <Grid item md={1} xs={3}>
-                  <img src={angular} className={classes.icons}></img>
+                  <img src={angular} alt="Angular logo" className={classes.icons}></img>
                 </Grid>
                 {/* <Grid item md={1} xs={3}>
                   <img src={github} className={classes.icons}></img>
                 </Grid> */}
                 <Grid item md={1} xs={3}>
-                  <img src={postman} className={classes.icons}></img>
+                  <img src={postman} alt="Postman logo" className={classes.icons}></img>
                 </Grid>
                 <Grid item md={1} xs={3}>
-                  <img src={npm} className={classes.icons}></img>
+                  <img src={npm} alt="NPM logo" className={classes.icons}></img>
                 </Grid>
                 {/* <Grid item md={1} xs={3}>
                   <img src={redux} className={classes.icons}></img>

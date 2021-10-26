@@ -42,17 +42,17 @@ function CaseStudy() {
           </p>
         </Col>
         <Col className="CSpurposePhotos" md={6}>
-          <img className="CSimages" src={mainView} width='80%'></img>
+          <img className="CSimages" alt="myFlix homepage" src={mainView} width='80%'></img>
           <br />
-          <img className="CSimages" src={profileView} width='80%'></img>
+          <img className="CSimages" alt="myFlix profile page" src={profileView} width='80%'></img>
         </Col>
       </Row>
 
       <Typography id="projectPlanHeader">Project Plan</Typography>
       <Row className="justfy-content-center">
         <Col id="CSprojectPhotos" md={6}>
-          <img className="CSimages" src={postmanView} width='80%'></img>
-          <img className="CSimages" src={codeView} width='80%'></img>
+          <img className="CSimages" alt="myFlix back-end Postman" src={postmanView} width='80%'></img>
+          <img className="CSimages" src={codeView} alt="myFlix back-end code" width='80%'></img>
         </Col>
         <Col md={6} className="CSprojectplan">
           <Typography id="CSsubheader">Server-Side</Typography>
@@ -95,8 +95,8 @@ function CaseStudy() {
         </Col>
       </Row>
       <Row className="justify-content-center">
-        <img className="CSimages" src={updateProfile} width='40%'></img>
-        <img className="CSimages" src={genreView} width='40%'></img>
+        <img className="CSimages" alt="myFlix update profile view" src={updateProfile} width='40%'></img>
+        <img className="CSimages" alt="myFlix genre view" src={genreView} width='40%'></img>
       </Row>
       <br />
       <Row className="justify-content-center" id="phase-container">

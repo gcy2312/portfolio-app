@@ -17,27 +17,27 @@ function Footer() {
       <BottomNavigation id="icons-nav">
         <Link
           rel="noopener noreferrer" href="https://github.com/gcy2312?tab=repositories" target="_blank">
-          <GitHubIcon class="link-icons" style={{ fill: '#fff' }} />
+          <GitHubIcon aria-hidden="false" aria-label="GitHub icon" class="link-icons" style={{ fill: '#fff' }} />
         </Link>
 
         <Link
           rel="noopener noreferrer" href="https://www.linkedin.com/in/genevieve-cyr-08553739/" target="_blank">
-          <LinkedInIcon class="link-icons" style={{ fill: '#fff' }} />
+          <LinkedInIcon aria-hidden="false" aria-label="Linkedin icon" class="link-icons" style={{ fill: '#fff' }} />
         </Link>
 
         <Link
           rel="noopener noreferrer" href="https://twitter.com/genevieve_cyr" target="_blank">
-          <TwitterIcon class="link-icons" style={{ fill: '#fff' }} />
+          <TwitterIcon aria-hidden="false" aria-label="Twitter icon" class="link-icons" style={{ fill: '#fff' }} />
         </Link>
 
         <Link
           rel="noopener noreferrer" href="https://medium.com/@gma.cyr/about" target="_blank">
-          <img src={mediumImg} class="link-icons"></img>
+          <img src={mediumImg} alt="link to Medium profile" class="link-icons"></img>
         </Link>
 
         <Link
           rel="noopener noreferrer" target="_blank" href="skype:gma.cyr?chat">
-          <img src={skypeImg} class="link-icons"></img>
+          <img src={skypeImg} alt="link to Skype profile" class="link-icons"></img>
         </Link>
 
       </BottomNavigation>
