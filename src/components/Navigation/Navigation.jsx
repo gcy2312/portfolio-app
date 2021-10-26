@@ -13,7 +13,7 @@ function Navigation(props) {
 
   return (
     <Navbar id="navbar" expand="lg" fixed="top">
-      <img src={logoImg} height="80" width="auto"></img>
+      <img src={logoImg} height="80" width="auto" id="logoimg"></img>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
 

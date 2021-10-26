@@ -42,7 +42,7 @@
   margin-top: 40px;
 }
 
-@media all and (min-width: 400px) and (max-width: 750px) {
+@media all and (min-width: 300px) and (max-width: 750px) {
   #background-text{
     font-size: 18px;
     margin-left:5px;
@@ -50,5 +50,8 @@
   }
   #about-header{
     padding-top:10px ;
+  }
+  #background-header{
+    font-size: 30px;
   }
 }

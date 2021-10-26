@@ -15,3 +15,9 @@
   #navBtn:hover, #navBtn:focus{
     color:#e45f05;
   }
+
+  @media all and (min-width: 300px) and (max-width: 350px) {
+#logoimg{
+  height: 70px; 
+    }
+  }

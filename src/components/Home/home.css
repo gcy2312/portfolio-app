@@ -52,7 +52,7 @@
  color: #49e9a6;
 }
 
-@media all and (min-width: 400px) and (max-width: 750px) {
+@media all and (min-width: 300px) and (max-width: 750px) {
   .typist{
     margin-left: 0px;
     font-size: 20px;

@@ -30,6 +30,7 @@ function Work(props) {
       subtitle: "AngularCLI, MaterialUI, CSS",
       description: "A re-build of client-side for myFlix app using Angular. Same IMDB functionality implemented using Angular CLI, SCSS, and Material UI.",
       imagePath: `${angularClientImg}`,
+      testLive: 'Want to test it out?  Username: guest, Password: guest',
       liveLink: "https://gcy2312.github.io/myFlix-Angular-client/welcome",
       gitLink: "https://github.com/gcy2312/myFlix-Angular-client",
       caseStudyLink: "testlink.com"
@@ -46,6 +47,7 @@ function Work(props) {
       title: "CLIENT-SIDE REACT",
       subtitle: "ReactJS, Bootstrap, CSS",
       description: "Client-side programming for myFlix app using ReactJS. IMDB functionality, where users can browse and favorite a selection of movies.Uses MERN stack, Bootstrap, CSS.",
+      testLive: 'Want to test it out?  Username: guest, Password: guest',
       imagePath: `${reactClientImg}`,
       liveLink: "https://gcy2312-react-myflix.netlify.app/",
       gitLink: "https://github.com/gcy2312/myFlix-client"
@@ -134,6 +136,10 @@ function Item(props) {
         <Typography id="subtitle" variant="subtitle2"> {props.item.subtitle} </Typography>
 
         <Typography id="project-desc" >{props.item.description}</Typography>
+
+        {
+          props.item.testLive ? <Typography id="testText" variant="subtitle1"> {props.item.testLive} </Typography> : null
+        }
 
         <div className="project-links">
           <Button id="projectBtn" variant="contained" href={props.item.gitLink} target="_blank">{'</>'}</Button>
