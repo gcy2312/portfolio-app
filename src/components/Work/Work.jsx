@@ -38,7 +38,7 @@ function Work(props) {
     {
       title: "SERVERLESS WEB APP",
       subtitle: "ReactJS, Jest, Enzyme, AWS Lambda",
-      description: "PWA built using React. App uses Google Calendar API to fetch upcoming events, and AWS Lambda to host serverless functionality.Developped using TDD approach(Jest & Enzyme).",
+      description: "PWA built using React. App uses Google Calendar API to fetch upcoming events, and AWS Lambda to host serverless functionality.Developed using TDD approach(Jest & Enzyme).",
       imagePath: `${meetImg}`,
       liveLink: "https://gcy2312.github.io/meet-app/",
       gitLink: "https://github.com/gcy2312/meet-app",
@@ -46,7 +46,7 @@ function Work(props) {
     {
       title: "CLIENT-SIDE REACT",
       subtitle: "ReactJS, Bootstrap, CSS",
-      description: "Client-side programming for myFlix app using ReactJS. IMDB functionality, where users can browse and favorite a selection of movies.Uses MERN stack, Bootstrap, CSS.",
+      description: "Client-side programming for myFlix app using ReactJS. IMDB functionality, where users can browse and favorite a selection of movies. Uses MERN stack, Bootstrap, CSS.",
       testLive: 'Want to test it out?  Username: guest, Password: guest',
       imagePath: `${reactClientImg}`,
       liveLink: "https://gcy2312-react-myflix.netlify.app/",
@@ -63,7 +63,7 @@ function Work(props) {
     {
       title: "NATIVE MOBILE APP",
       subtitle: "ReactNative, CSS",
-      description: "Native mobile chat app developped using React Native. Provide users with chat interface (GiftedChat) and functionality to share images, location, and take photo with device camera.",
+      description: "Native mobile chat app developed using React Native. Provide users with a chat interface (GiftedChat) and functionality to share images, location, and take photos with the device's camera.",
       imagePath: `${chatImg}`,
       gitLink: "https://github.com/gcy2312/chat-app/tree/features-function"
     },
