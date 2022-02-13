@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.67d15b51.chunk.css",
-    "main.js": "/static/js/main.7fe27693.chunk.js",
-    "main.js.map": "/static/js/main.7fe27693.chunk.js.map",
+    "main.js": "/static/js/main.b295eb7e.chunk.js",
+    "main.js.map": "/static/js/main.b295eb7e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8a196eaa.js",
     "runtime-main.js.map": "/static/js/runtime-main.8a196eaa.js.map",
     "static/css/2.68fdb14c.chunk.css": "/static/css/2.68fdb14c.chunk.css",
@@ -25,6 +25,7 @@
     "static/media/CYR_Genevieve_CV.f52cede5.pdf": "/static/media/CYR_Genevieve_CV.f52cede5.pdf",
     "static/media/angular.ed0eb9e3.svg": "/static/media/angular.ed0eb9e3.svg",
     "static/media/api-img.2daa4f95.png": "/static/media/api-img.2daa4f95.png",
+    "static/media/billfold5-img.7840757e.png": "/static/media/billfold5-img.7840757e.png",
     "static/media/bootstrap.99ff40c9.svg": "/static/media/bootstrap.99ff40c9.svg",
     "static/media/chatapp-img.f347ebe1.png": "/static/media/chatapp-img.f347ebe1.png",
     "static/media/css3.64fa1d1c.svg": "/static/media/css3.64fa1d1c.svg",
@@ -46,6 +47,7 @@
     "static/media/postgre.e512fc1c.svg": "/static/media/postgre.e512fc1c.svg",
     "static/media/postman.f4d0870a.svg": "/static/media/postman.f4d0870a.svg",
     "static/media/react.f88b9855.svg": "/static/media/react.f88b9855.svg",
+    "static/media/scramble-img.74c4df1d.png": "/static/media/scramble-img.74c4df1d.png",
     "static/media/skype.3ef81f93.svg": "/static/media/skype.3ef81f93.svg"
   },
   "entrypoints": [
@@ -53,6 +55,6 @@
     "static/css/2.68fdb14c.chunk.css",
     "static/js/2.caa23874.chunk.js",
     "static/css/main.67d15b51.chunk.css",
-    "static/js/main.7fe27693.chunk.js"
+    "static/js/main.b295eb7e.chunk.js"
   ]
 }
