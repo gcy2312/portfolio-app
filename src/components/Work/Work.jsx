@@ -21,10 +21,29 @@ import meetImg from '../../assets/meetapp-img.png';
 import pokedexImg from '../../assets/pokedex-img.png';
 import apiImg from '../../assets/api-img.png';
 import myFlixLogo from '../../assets/myflix-logo.png';
+import billFoldImg from '../../assets/billfold5-img.png';
+import scrambleImg from '../../assets/scramble-img.png';
 
 
 function Work(props) {
   var items = [
+    {
+      title: "FULL-STACK PWA",
+      subtitle: "AngularCLI, Node.js, Express, MongoDB, MaterialUI, SASS",
+      description: "A MEAN-stack PWA using Angular TypeScript. Provides users functionality to track spending habits monthly and upcoming bills. Data visualization implemented using PrimeNg Charts and FullCalendar libraries.",
+      imagePath: `${billFoldImg}`,
+      testLive: 'Want to test it out?  Username: guest, Password: guest',
+      liveLink: "https://gcy2312.github.io/billFold/welcome",
+      gitLink: "https://github.com/gcy2312/billFold",
+    },
+    {
+      title: "REACT WEB APP",
+      subtitle: "ReactJS, jQuery, Bootstrap, CSS",
+      description: "Front-end word-scramble game created using ReactJS. Utilizes Axios for API data retrieval, react-bootstrap and flex for design and conditional rendering.",
+      imagePath: `${scrambleImg}`,
+      liveLink: "https://gcy2312.github.io/scramble/",
+      gitLink: "https://github.com/gcy2312/scramble",
+    },
     {
       title: "CLIENT-SIDE ANGULAR",
       subtitle: "AngularCLI, MaterialUI, CSS",
@@ -85,7 +104,7 @@ function Work(props) {
         <Row md={12} className="carousel">
           <Carousel
             animation="slide"
-            interval="6000"
+            interval="8000"
             NextIcon={<NavigateNextIcon />}
             PrevIcon={<NavigateBeforeIcon />}
           >
