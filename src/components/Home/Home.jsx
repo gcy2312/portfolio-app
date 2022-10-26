@@ -33,34 +33,37 @@ function Home() {
               <Typist avgTypingDelay={20} stdTypingDelay={10} className="typist">
                 <span className="gray">{'//declare web developer'}</span><br />
                 <span className="orange">const </span><span className="blue">genevieveCyr </span><span className="pink">= </span>
-                <span className="blue">(</span><span className="yellow">name</span><span className="blue">) </span><span className="orange">{'=> '}</span>
+                <span className="blue">(</span><span className="yellow">name</span>
+                <span className="pink">:</span>
+                <span className="italic"> string</span>
+                <span className="blue">) </span><span className="orange">{'=> '}</span>
                 <span className="white">{' {'}</span>
                 <br />
                 <div className="onetab">
-                  <span className="blue">loadPortfolioApp</span><span className="white">();</span>
+                  <span className="blue">loadPortfolioApp</span><span className="white">()</span>
                   <br />
                   <span className="pink">if </span><span className="white">(</span><span className="yellow">name </span><span className="pink">=== </span>
                   <span className="green">'Curious'</span><span className="white">)</span><span className="white">{' {'}</span>
                   <br />
                   <div className="twotab">
-                    <span className="blue">scrollDown</span><span className="white">();</span>
+                    <span className="blue">scrollDown</span><span className="white">()</span>
                   </div>
 
                   <span className="white">{'} '}</span><span className="pink">else if </span><span className="white">(</span><span className="yellow">name </span><span className="pink">=== </span>
                   <span className="green">'Have a question'</span><span className="white">)</span><span className="white">{' {'}</span>
                   <br />
                   <div className="twotab">
-                    <span className="blue">contactPage</span><span className="white">();</span>
+                    <span className="blue">contactPage</span><span className="white">()</span>
                   </div>
 
                   <span className="white">{'} '}</span><span className="pink">else</span><span className="white">{' {'}</span>
                   <br />
                   <div className="twotab">
-                    <span className="blue">codingTime</span><span className="white">();</span>
+                    <span className="blue">codingTime</span><span className="white">()</span>
                   </div>
                   <span className="white">{'}'}</span>
                 </div>
-                <span className="white">{'};'}</span>
+                <span className="white">{'}'}</span>
 
               </Typist>
             </Container>

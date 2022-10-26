@@ -21,7 +21,7 @@ function Footer() {
         </Link>
 
         <Link
-          rel="noopener noreferrer" href="https://www.linkedin.com/in/genevieve-cyr-08553739/" target="_blank">
+          rel="noopener noreferrer" href="https://www.linkedin.com/in/gcyrdev/" target="_blank">
           <LinkedInIcon aria-hidden="false" aria-label="Linkedin icon" class="link-icons" style={{ fill: '#fff' }} />
         </Link>
 

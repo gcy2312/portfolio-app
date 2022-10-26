@@ -1,67 +1,83 @@
-#Home{
+#Home {
   overflow: hidden;
   position: relative;
   padding-bottom: 10px;
 }
-.bgImg{
+
+.bgImg {
   opacity: 0.15;
   position: absolute;
-  right:400px;
+  right: 400px;
   width: 70%;
   height: auto;
 }
-.home{
-  padding-top: 140px;
+
+.home {
+  padding-top: 130px;
   padding-bottom: 130px;
   background-color: #000;
-  height: 610px;
+  min-height: 610px;
 }
-.typist{
+
+.typist {
   margin-left: 90px;
   text-align: left;
   font-family: 'Montserrat';
-  font-size: 25px;
+  font-size: 24px;
 }
-.onetab{
+
+.onetab {
   margin-left: 20px;
 }
-.twotab{
+
+.twotab {
   margin-left: 30px;
 }
-.gray{
-  color:gray;
+
+.gray {
+  color: gray;
   font-style: italic;
 }
-.white{
- color: #fff;
+
+.white {
+  color: #fff;
 }
-.pink{
- color: #df769b;
- font-weight: bolder;
+
+.pink {
+  color: #df769b;
+  font-weight: bolder;
 }
-.orange{
- color: #e56332;
+
+.orange {
+  color: #e56332;
 }
-.blue{
- color: #129ab5;
+
+.italic {
+  color: #e56332;
+  font-style: italic;
 }
-.yellow{
- color: #e4b781;
+
+.blue {
+  color: #129ab5;
 }
-.green{
- color: #49e9a6;
+
+.yellow {
+  color: #e4b781;
+}
+
+.green {
+  color: #49e9a6;
 }
 
 @media all and (min-width: 300px) and (max-width: 750px) {
-  .typist{
+  .typist {
     margin-left: 0px;
     font-size: 20px;
     margin-top: 60px;
     padding-bottom: 100px;
   }
-  .home{
-    height:700px;
+
+  .home {
+    height: 700px;
   }
 }
-
-
